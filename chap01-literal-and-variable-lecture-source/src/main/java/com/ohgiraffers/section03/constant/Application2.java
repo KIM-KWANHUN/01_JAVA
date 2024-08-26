@@ -14,10 +14,11 @@ public class Application2 {
         /* 모든 문자는 영문자 대문자 혹은 숫자만 사용한다. */
         final int AGE = 20;
         final int AGE2 = 30;
-        
+
 
         /* 단어와 단어 사이의 연결은 언더바를 사용한다. */
         final int MAX_AGE = 60;
+        //김관훈//
 
 
 
