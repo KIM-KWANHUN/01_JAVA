@@ -19,6 +19,7 @@ public class Application2 {
         /* 단어와 단어 사이의 연결은 언더바를 사용한다. */
         final int MAX_AGE = 60;
         //김관훈//
+        아알ㅏㅏㅣㅣ;
 
 
 
