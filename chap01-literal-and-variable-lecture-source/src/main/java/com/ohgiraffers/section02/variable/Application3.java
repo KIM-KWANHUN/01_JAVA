@@ -63,6 +63,20 @@ public class Application3 {
         /* 목차 2-7. boolean형들은 의문문으로 가급적이면 긍정형태로 작성한다. */
         boolean isAlive = true;
         boolean dead = false; //부정적으로 사용하지 않는다.
+        int isum = 20;
+        int isum2 = 30;
+        System.out.println("더하기 결과 : " + (isum + isum2));
+        System.out.println("빼기 결과 : " + (isum - isum2));
+        System.out.println("곱하기 결과 : " + (isum * isum2));
+        System.out.println("나누기한 몫 결과 : " + (isum / isum2));
+        System.out.println("나누기한 나머지 결과 : " + (isum % isum2));
+        double extent = 12.5;
+        double perimeter = 36.4;
+        System.out.println(extent * perimeter);
+        System.out.println(extent + extent + perimeter+perimeter);
+
+
+
 
 
 
