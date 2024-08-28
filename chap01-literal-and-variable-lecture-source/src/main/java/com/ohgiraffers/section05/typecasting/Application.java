@@ -71,6 +71,10 @@ public class Application {
         // byte b = isTrue;
         // short s = isTrue;
 
+        /* 총정리
+        * 자동형변환은 작은자료에서큰자료로 자동변환된다.
+        * 정수에서 실수로 자동변환된다. */
+
 
 
 

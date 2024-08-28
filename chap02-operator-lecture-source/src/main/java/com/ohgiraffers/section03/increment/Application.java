@@ -39,24 +39,27 @@ public class Application {
         
         int result2 = ++secondNum * 3;
 
-        System.out.println("result1 = " + result1);
-        System.out.println("firstNum = " + firstNum);
+        System.out.println("result2 = " + result2);
+        System.out.println("secondNum = " + secondNum);
 
         int thirdNum = 20;
         int result3 = ++thirdNum;
         System.out.println("result3 = " + result3);
         System.out.println("thirdNum = " + thirdNum);
         
+        int a = 5;
+        int a3 = a;
+        System.out.println("a3 = " + a3);
+        int a1 = a++ *3;
+        System.out.println("a = " + a);
+        int a2 = a;
+        int a4 = a;
+        System.out.println("a4 = " + a4);
         
         
         
         
-        
-        
-        
-        
-        
-        
+
         
         
         

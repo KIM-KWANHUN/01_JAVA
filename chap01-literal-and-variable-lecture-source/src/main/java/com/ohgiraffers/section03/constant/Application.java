@@ -29,5 +29,11 @@ public class Application {
 
         /* 목차 3. 필요한 위치에서 호출해서 사용 */
         //System.out.println("AGE = " + AGE);
+
+        /* 총정리
+        * 상수란 변수는 값이 변하지만 상수는 고정된 값이다 변하지않는 값이다,
+        * 상수를 선언할때 final을 붙인다 ex) final int age;
+        * 상수를 선언할때는 변수와 차별되기위해 첫자를 대문자로 상수명을 짓는다 Age
+        * */
     }
 }

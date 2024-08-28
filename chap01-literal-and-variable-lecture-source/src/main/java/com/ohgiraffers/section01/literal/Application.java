@@ -35,7 +35,12 @@ public class Application {
         System.out.println(true);
         System.out.println(false);
         // 파랑색으로 뜨는건 예약어
-
+        /* 총정리
+        *   정수 : 숫자
+        *   실수 : 소수점숫자
+        *   문자 : 문자도 숫자로 되어있다 'a' 이렇게 홀따옴표를 붙여준다.
+        *   문자열 : 문자가 두개이상으로 된것 "안녕 이렇게 쌍따옴표를 붙여준다
+        *   논리 : true false 두개를 이용한다.  */
 
 
 

@@ -74,6 +74,14 @@ public class Application2 {
 
         // ** 대표 자료형 : 정수 = int, 실수 = double, 이 대표 자료형이다.
 
+        /* 총정리
+        * 자료형(즉 선언) ex) int=inum1; int->자료형 선언하다 = inum1 -> 값
+        * 1. 숫자 자료형은 byte(1),short(2),int(4),long(8) 크기가 크면 클수록 저장할수있는데이터가 늘어난다.
+        * long자료는 long=lnum1L 값뒤에 대문자를 꼭써준다.
+        * 2. 실수 자료형은 float(4), double(8)이 있고 f도마찬가지로 값뒤에 f를붙여준다 ex) float = fnum1f
+        * 3. 문자 자료형은 cha 문자는 내부적으로 숫자이다.
+        * 4. 문자열 자료형은 string str이다. */
+
 
 
 

@@ -53,7 +53,10 @@ public class Application {
         System.out.println("sum에 10을 더한 2번 째 sum = " + sum);
         sum = sum + 10;
         System.out.println("sum에 10을 더한 3번 째 sum = " + sum);
-        
+
+        /* 총정리
+        * 변수는 즉 공간이다 변수(공간) = 값 되도록 의미전달은 쉽게한다. ex) num1,sum1
+        * soutv : 가장 가까운 변수를 출력해준다. */
         
 
 

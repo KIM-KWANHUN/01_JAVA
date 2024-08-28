@@ -75,6 +75,10 @@ public class Application3 {
         System.out.println(extent * perimeter);
         System.out.println(extent + extent + perimeter+perimeter);
 
+        /* 총정리
+        * 메소드안에 동일한 변수명은 할수없다.
+        * 변수명은 대소문자를 구분한다. */
+
 
 
 
