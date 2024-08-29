@@ -33,9 +33,5 @@ public class Application {
         System.out.println("result3 = " + result3);
         System.out.println("result4 = " + result4);
         System.out.println("result5 = " + result5);
-
-        int num6 = 3;
-        int num7 = -3;
-        String result6 = (num6 > 0) ? "양수다" :
     }
 }

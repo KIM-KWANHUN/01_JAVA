@@ -61,7 +61,23 @@ public class Application {
         System.out.println("a가 b보다 크거나 c가 d보다 작은지 확인 : " + (a > b || c < d));
         System.out.println("a가 b보다 크거나 c가 d보다 큰지지 확인 : " + (a > b || c > d));
         //ex) 롤을하거나 게임을하거나 ||연산자
-        // 이거나,둘중하나
+        // 거나,둘중하나
+        System.out.println("=====연습문제=====");
+        int a1 = 15;
+        int b1 = 25;
+        int c1 = 35;
+        int d1 = 45;
+
+        System.out.println("a1이 b1보다 작으면서 c1이 d1보다 작은지 확인 : " + (a1 < b1 && c1 < d1));
+        System.out.println("a1이 b1보다 작으면서 c1이 d1보다 큰지 확인 : " + (a1 < b1 && c1 > d1));
+        System.out.println("a1이 b1보다 크면서 c1이 d1보다 작은지 확인 : " + (a1 > b1 && c1 < d1));
+        System.out.println("a1이 b1보다 크면서 c1이 d1보다 큰지 확인 : " + (a1 > b1 && c1 > d1));
+
+        System.out.println("=====||문제=====");
+        System.out.println("a가 b보다 작거나 c가 d보다 작은지 확인 : " + (a < b || c < d));
+        System.out.println("a가 b보다 작거나 c가 d보다 큰지 확인 : " + (a < b || c > d));
+        System.out.println("a가 b보다 크거나 c가 d보다 작은지 확인 : " + (a > b || c < d));
+        System.out.println("a가 b보다 크거나 c가 d보다 큰지 확인 : " + (a > b || c > d));
 
     }
 }
