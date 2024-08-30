@@ -52,7 +52,7 @@ public class Application {
             * 이공간에 {}맨처음 마지막이 메인메소드다.
             * 메소드 만드는방법 : ex)Application app1 = new Application();
             *                       클래스명    변수명  *new  클래스명();
-            *                     app.methodA();
+            *                     app1.methodA();
             * 메소드 만드는법
             * public void 클래스명(){} 이렇게 만든다.
             * **매우중요** 메소드 흐름은 꼭외우기 쉽게 설명하자면 밑으로가면서 작업을하고 다시 원래했던데로 돌아온다는 느낌 */

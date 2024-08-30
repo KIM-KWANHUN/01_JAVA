@@ -7,8 +7,10 @@ public class Application3 {
     public static void main(String[] args) {
         
         /* title. java.util.Random 클래스를 사용해서 난수 발생 */
-        
+
+
         Random random = new Random();
+        //클래스명 //변수명 = new //클래스명
 
         /* comment.
            * random.nextInt(구하려는 난수의 갯수) + 구하려는 난수의 최솟값    */

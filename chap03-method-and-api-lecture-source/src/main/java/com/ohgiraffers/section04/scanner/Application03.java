@@ -34,8 +34,7 @@ public class Application03 {
 
         System.out.print("숫자를 입력해주세요 : ");
         String num1 = sc.nextLine();
-        System.out.print("num" +
-                "1 = " + num1);
+        System.out.print("num" + "1 = " + num1);
         
         /* index 2.정수, 실수, 논리값 입력 후 nextLine()로 문자열을 입력 받을때 */
         sc.nextLine();
