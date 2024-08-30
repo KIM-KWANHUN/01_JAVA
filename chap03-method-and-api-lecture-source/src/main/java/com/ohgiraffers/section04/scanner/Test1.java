@@ -1,6 +1,6 @@
-package com.ohgiraffers.section01.method;
+package com.ohgiraffers.section04.scanner;
 
-public class Test3 {
+public class Test1 {
 
     public static void main(String[] args) {
 
