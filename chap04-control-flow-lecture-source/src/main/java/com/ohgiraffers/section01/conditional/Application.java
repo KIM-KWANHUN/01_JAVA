@@ -13,8 +13,8 @@ public class Application {
 //       c.improveNestedIfElseIfStatement();
 //        D_switch app4 = new D_switch();
 //        app4.testSwitchStatement();
-        Test app1 = new Test();
-        app1.Test1();
+//        Test app1 = new Test();
+//        app1.Test1();
 
 
 
