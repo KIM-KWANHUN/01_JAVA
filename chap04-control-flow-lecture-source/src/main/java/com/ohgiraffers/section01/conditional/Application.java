@@ -15,6 +15,11 @@ public class Application {
 //        app4.testSwitchStatement();
 //        Test app1 = new Test();
 //        app1.Test1();
+//        Test app1 = new Test();
+//        app1.test1();
+
+        Test2 app3 = new Test2();
+        app3.test3();
 
 
 
