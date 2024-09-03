@@ -72,7 +72,7 @@ public class Test2 {
             Scanner sc = new Scanner(System.in);
             double num = sc.nextInt();
 
-            if()
+//            if()
 
 
 
