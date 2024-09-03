@@ -19,4 +19,4 @@ public class Application05 {
         /* comment. 발생한 난수를 index 에 대입해서 출력 */
         System.out.print("당신이 뽑은 카드는? : " + shapes[randomShapesIndex] + " " + cardNumbers[randomCardNumbersIndex] + "카드 입니다.");
     }
-}ddd
+}
