@@ -29,7 +29,7 @@ public class Application {
 //        app1.whileExample1();
 //        app1.whileExample2();
         D_doWhile app1 = new D_doWhile();
-        app1.testDoWhileStatement();
+        app1.dowhileExample();
 
 
 

@@ -18,8 +18,6 @@ public class Application {
 //        Test app1 = new Test();
 //        app1.test1();
 
-        Test2 app3 = new Test2();
-        app3.test3();
 
 
 

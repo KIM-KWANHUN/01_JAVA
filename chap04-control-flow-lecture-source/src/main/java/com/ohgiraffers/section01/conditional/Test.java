@@ -24,9 +24,21 @@
 //
 //         public void test2 (){
 //
-//         }
-
-
+//       package com.ohgiraffers.section01.conditiona
+package com.ohgiraffers.section01.conditional;
+public class Test {
+    public void starPiramid(int a) {
+        for (int i = 0; i <= a; i++) {
+            for (int j = 0; j < (a - i); j++) {
+                System.out.print(" ");
+            }
+            for (int j = 1; j < (i * 2); j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
 
 
 
