@@ -176,7 +176,7 @@ public class A_for {
         // 만약 첫번째로 입력한 정수가 더 큰 경우
         if (first > second) {
 
-            for (int i = second; i < +first; i++) {
+            for (int i = second; i < first; i++) {
                 sum += i;
             }
         } else {

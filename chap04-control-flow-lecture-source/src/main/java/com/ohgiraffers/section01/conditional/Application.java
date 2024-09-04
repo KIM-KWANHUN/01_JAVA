@@ -17,7 +17,10 @@ public class Application {
 //        app1.Test1();
 //        Test app1 = new Test();
 //        app1.test1();
-
+        Test2 app1 = new Test2();
+        app1.test2();
+        Test2 app2 = new Test2();
+        app1.test3();
 
 
 
