@@ -1,5 +1,7 @@
 package com.ohgiraffers.section02.copy;
 
+import java.util.Arrays;
+
 public class Application03 {
 
     public static void main(String[] args) {
@@ -25,6 +27,66 @@ public class Application03 {
         *   clone() 은 이전 배열과 같은 배열 밖에 만들지 못하는 특징이 있으며,
         *   그 외 3가지 방법은 복사하는 배열의 길이를 조절할 수 있다는 장점이 있다. */
 
+        int[] originArr = new int[] {1,2,3,4,5};
+
+        print(originArr);
+
+        /* index 1. for 문을 이용한 인덱스 값 복사 */
+        int[] copyArr1 = new int[10];
+
+        for(int i = 0; i < originArr.length; i++){
+            copyArr1[i] = originArr[i];
+        }
+        print(copyArr1); //리턴
+//        출력
+//        전달 받은 배열의 hashcode() : 1804094807
+//        1 2 3 4 5 0 0 0 0 0 즉 값만 떠오고 해당하는 hashcode 도 다르고 아예 다른 배열이 된다.
+
+        /* index 2. Object 의 clone() 을 이용한 값 복사 */
+        int[] copyArr2 = originArr.clone();
+
+        print(copyArr2);
+//        출력값
+//        전달 받은 배열의 hashcode() : 951007336
+//        1 2 3 4 5 hashcode 는 다르지만 값만 똑같다. 그리고 이전배열이 5개있으면 어쩔수없이 5칸밖에 못된다.
+
+        /* index 3. System 의 arraycopy() 를 이용한 복사 */
+        int[] copyArr3 = new int[10];
+
+        /* comment.
+        *   전달인자 호출방법
+        *   1. 원본배열(originArr)
+        *   2. 복사를 시작 할 인덱스
+        *   3. 복사본 배열(copyArr3)
+        *   4. 복사를 시작 할 인덱스
+        *   5. 복사할 길이 */
+        System.arraycopy(originArr, 0, copyArr3,3, originArr.length);
+
+        print(copyArr3);
+
+        /* index 4. Array 의 copyOf() 메소드를 이용한 복사 */
+        //1. 복사하고픈 배열 2. 만들고 싶은 배열의길이
+        int[] copyArr4 = Arrays.copyOf(originArr, 8);
+
+        print(copyArr4);
+
+
+
+
+
     }
 
+    public static void print(int[] 전달받은배열을저장할매개변수){
+
+        System.out.println("전달 받은 배열의 hashcode() : " + 전달받은배열을저장할매개변수.hashCode());
+
+        for(int i = 0; i < 전달받은배열을저장할매개변수.length; i++){
+            System.out.print(전달받은배열을저장할매개변수[i] + " ");
+//            출력값
+//            전달 받은 배열의 hashcode() : 918221580
+//            1 2 3 4 5
+        }
+
+
+    }
 }
