@@ -38,7 +38,7 @@ public class Application03 {
             System.out.println("iarr2[" + i + "] : " + iarr2[i]);
 
             }
-        String[] sarr = {"apple", "bananan", "orange", "3"};
+        String[] sarr = {"apple", "banana", "orange", "3"};
 
         for(int i = 0; i<sarr.length; i++){
             System.out.println(sarr[i]);
