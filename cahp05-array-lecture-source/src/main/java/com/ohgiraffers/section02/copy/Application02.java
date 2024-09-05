@@ -45,7 +45,6 @@ public class Application02 {
     public static String[] getAnimals(){
         //void가 아닌경우에는 return값을 넣어줘야하고 위에 제목에있는 자료형과 리턴값 자료형이 같아야한다.
         String[] animals = {"후이바오","루이바오"};
-        //
 
         System.out.println("새로 만든 animals 의 hashcode() : " + animals.hashCode());
 //        출력값
