@@ -1,5 +1,7 @@
 package com.ohgiraffers.section01.method;
 
+import java.util.Scanner;
+
 public class Application08 {
 
     public static void main(String[] args) {
@@ -18,14 +20,21 @@ public class Application08 {
 
         int result = Application08.sumTwoNumbers(10,20);
         System.out.println("result = " + result);
+        Scanner sc = new Scanner(System.in);
+        System.out.print("첫번째 숫자를 입력하세요 : ");
+        int num1 = sc.nextInt();
+        System.out.print("두번째 숫자를 입력하세요 : ");
+        int num2 = sc.nextInt();
 
+        int a1 = sumTwoNumbers(num1, num2);
+        System.out.println(a1);
         /* 동일한 클래스 내에 작성 된 static 메소드는 클래스명이 생략 가능하다. */
-
+        // int first = 10;
     }
-    public static int sumTwoNumbers(int firtst, int second) {
+    public static int sumTwoNumbers(int num1, int num2) {
 
 
 
-        return firtst * second;
+        return num1 * num2;
     }
 }

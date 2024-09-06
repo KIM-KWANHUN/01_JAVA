@@ -9,16 +9,16 @@ public class C_ifElseIf {
     /* comment.
     *   [if-else-if문 표현식]
     *   if(조건식1) {
-    *       조건식1이 true일때 실행할 구문,
+    *       조건식1이 true 일때 실행할 구문,
     *   } else if(조건식2) {
-    *       조건식1이 false이고 조건식2가 ture 일때 실행할 구문;
+    *       조건식1이 false 이고 조건식2가 ture 일때 실행할 구문;
     *   } else {
     *       위의 조건 2개가 모두 거짓일 경우 실행할 구문;
     *   } */
 
     /* comment.
-    *   if-else-if문은 조건식 1의 결과값이 참(true) 이면 if{} 블럭 실행,
-    *   조건식1이 false이면 조건식을 2를 확인하여 참(true)이면 else if{}
+    *   if-else-if 문은 조건식 1의 결과값이 참(true) 이면 if{} 블럭 실행,
+    *   조건식1이 false 이면 조건식을 2를 확인하여 참(true)이면 else if{}
     *   블럭 실행한다.
     *   조건식 1,2의 결과가 모두 거짓(false) 이면 else{} 블럭 실행 */
 

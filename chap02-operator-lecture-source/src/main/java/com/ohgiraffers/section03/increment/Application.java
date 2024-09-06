@@ -50,7 +50,7 @@ public class Application {
         int a = 5;
         int a3 = a;
         System.out.println("a3 = " + a3);
-        int a1 = a++ *3;
+        int a1 = a++ * 3;
         System.out.println("a = " + a);
         int a2 = a;
         int a4 = a;

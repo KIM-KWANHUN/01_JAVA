@@ -49,8 +49,6 @@ public class Application06 {
     }
 //    void가 아닌 자료형을 사용함.
     public String testMethod() {
-        System.out.println("안녕");
-
 
         return "안녕하세요";
 //        void형이 아닌건 항상 값을 가지고 복귀해야한다.
