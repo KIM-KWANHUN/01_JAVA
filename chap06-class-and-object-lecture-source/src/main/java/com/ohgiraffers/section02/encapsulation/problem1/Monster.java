@@ -17,6 +17,9 @@ public class Monster {
         if(hp > 0) {
             System.out.println("정상적인 값이 들어와서 전달 값으로 몬스터의 체력을 설정합니다.");
             this.hp = hp; // Monster.hp = 전달받은값을저장할공간 -> 똑같은 의미
+        }else{
+            System.out.println("0보다 작거나 같은 값이 들어와서 몬스터의 체력을 0으로 설정합니다.");
+            this.hp = 0;
         }
 
     }
