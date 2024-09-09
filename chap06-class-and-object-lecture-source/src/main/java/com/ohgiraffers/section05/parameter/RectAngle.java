@@ -47,7 +47,8 @@ public class RectAngle {
     public void calcRound() {
 
         double round = (width + height) * 2;
-        System.out.println("이 사각형의 둘레는 " + round + "입니다.");
+        System.out.println("이 사" +
+                "각형의 둘레는 " + round + "입니다.");
 
     }
 
