@@ -1,4 +1,4 @@
-package com.ohgiraffers.section06;
+package com.ohgiraffers.section06.finalkeyword;
 
 public class FinalFieldTest {
 

@@ -1,10 +1,10 @@
-package com.ohgiraffers.section06;
+package com.ohgiraffers.section06.finalkeyword;
 
 public class Test2 {
     //노래 한곡을 나타내는 song 클래스 작성
     //title : "crazy"
-    //artist : LE SSERAFIM
-    //country : korea
+    //artist : "LE SSERAFIM"
+    //country : "korea"
 
     private String title;
     private String artist;
