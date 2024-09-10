@@ -60,7 +60,15 @@ public class Application {
         *   메소드 이기 때문에 static 메소드는 정적 영역에 두고
         *   인스턴스를 생성하지 않고 호출 할 목적으로 작성을 하기 때문에
         *   아래처럼 사용하는 것은 권장하지 않는다. */
-        smt.staticMethod();
+       // smt.staticMethod(); // 권장하지 않음
+
+        /* index 7. static 메소드 호출 */
+        /* comment.
+        *   static 키워드가 붙은 메소드는
+        *   인스턴스를 생성하지 않고 호출할 수 있기 때문에
+        *   클래스명.메소드명();
+        *   이렇게 호출을 하게된다. */
+        StaticMethodTest.staticMethod();
 
     }
 
