@@ -37,7 +37,7 @@ public class Application {
         car.stop();
         car.soundHorn();
 
-        System.out.println("============================================");
+        System.out.println("=======================================================");
 
         /* index 2. FireCar 인스턴스 생성 */
         FireCar fireCar = new FireCar(); // 자식은 부모를 따라가기 때문에 출력문에
@@ -73,6 +73,15 @@ public class Application {
         *   2. 또한 부모 클래스의 변경이 쉽지 않다. 자식클래스에서 중요하게 사용하고 있는
         *      부모의 메소드를 수정할 시 자식 클래스에 모두 영향을 미칠 수 있다.
         *   3. 부모클래스에서는 의미 있는 기능이 자식에겐 무의미 할 수 있다.  */
+
+        /* index 4. 경운기 만들기 -> 경적이 없는 차 */
+        System.out.println("=============================================================");
+
+        FarmCar farmCar = new FarmCar();
+
+        farmCar.soundHorn();
+        farmCar.run();
+        farmCar.soundHorn();
 
 
 
