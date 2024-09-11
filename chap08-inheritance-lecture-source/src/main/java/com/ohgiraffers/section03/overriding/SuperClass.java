@@ -12,4 +12,13 @@ public class SuperClass {
     *   5. final 키워드가 사용 된 메소드는 오버라이딩 불가능
     *   6. 접근제한자는 부모 메소드와 같거나, 더 넓은 범위여야 한다.
     *   7. 예외처리는 간은 예외이거나, 더 구체적(하위)인 예외를 다루어야 한다. */
+
+    public void method(int num) {}
+
+    private void privateMethod() {}
+
+    private final void finalMethod() {}
+
+    protected void protectedMethod() {}
 }
+
