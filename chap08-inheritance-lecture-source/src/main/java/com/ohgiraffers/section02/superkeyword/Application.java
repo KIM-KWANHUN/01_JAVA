@@ -1,5 +1,7 @@
 package com.ohgiraffers.section02.superkeyword;
 
+import java.time.LocalDateTime;
+
 public class Application {
 
     public static void main(String[] args) {
@@ -14,6 +16,27 @@ public class Application {
         *   super() : 부모 생성자를 호출하는 구문으로 인자와 매개변수의
         *             타입, 갯수, 순서가 일치하는 부모의 생성자를 호출한다.
         *              */
+
+        Product product1 = new Product();
+        System.out.println(product1.getInfo()); // 출력을하면 초기값으로 세팅이 되어있다.
+//      출력문 :  Product 의 기본생성자 호출됨...
+//               Product{code='null', brand='null', name='null', price=0, manufacturingDate=null}
+
+        Product product2 = new Product("S=01234","삼성","갤럭시폴드6",2200000, LocalDateTime.now());
+        System.out.println(product2.getInfo());
+
+        Computer computer1 = new Computer();
+        System.out.println(computer1.getInfo());
+
+        Computer computer2 = new Computer("인텔",512,16,"윈도우");
+        System.out.println(computer2.getInfo());
+
+//        Computer computer3 = new Computer"S=01234","삼성","갤럭시폴드6",2200000, LocalDateTime.now,
+//                                "인텔",512,16,"윈도우";
+//        System.out.println(computer3.getInfo());
+
+
+
 
     }
 
