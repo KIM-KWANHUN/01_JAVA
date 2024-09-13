@@ -13,8 +13,10 @@ public class Application {
 
         while(true){
             System.out.println("========리버풀 스쿼드 명단==========");
-            System.out.println("1. 선수정보 등록");
-            System.out.println("2. 선수 조회");
+            System.out.println("1. 리버풀 선수정보 등록");
+            System.out.println("2. 리버풀 선수 조회");
+            System.out.println("3. 맨시티 선수 등록");
+            System.out.println("4. 맨시티 선수 조회 ");
             System.out.println("9. 프로그램 종료");
             System.out.print("메뉴를 선택해주세요 : ");
             int sum = sc.nextInt();

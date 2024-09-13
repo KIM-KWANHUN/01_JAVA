@@ -13,10 +13,10 @@ public class Application {
         *   1. Application 에서 플레이어가 여러 명의 회원 정보를 받아 등록
         *   2. Application 에서 플레이어가 전체 회원 조회 시 등록 된 회원 정보 반환 */
 
-        Scanner sc = new Scanner(System.in);
-        MemberManager manager = new MemberManager();
+        Scanner sc = new Scanner(System.in); // 1.스캐너로 입력
+        MemberManager manager = new MemberManager(); //2. 인스턴스 만들기
 
-        while(true) {
+        while(true) { // 3.반복문
             System.out.println("===============HiMedia 회원 관리 프로그램 ===================");
             System.out.println("1. 회원 등록");
             System.out.println("2. 회원 전체 조회");
@@ -24,7 +24,7 @@ public class Application {
             System.out.print("메뉴 선택 : ");
             int no = sc.nextInt();
 
-            switch (no) {
+            switch (no) { // 4. 조건문
                 case 1 :
                     manager.signUpMembers();
                     break;

@@ -1,6 +1,7 @@
 package com.ohgiraffers.section02.use;
 
 public class MemberDTO {
+    // 5. 필드에 사용할 전역변수 만들기
 
     private int no; // 회원 번호
     private String id; // 회원 id
@@ -9,9 +10,9 @@ public class MemberDTO {
     private int age; // 회원 나이
     private char gender; // 회원 성별
 
-    // 1. 기본생성자
+    // 6. 기본생성자 생성
     public MemberDTO() {}
-    // 2. 모든 필드를 초기화 하는 생성자
+    // 7. 모든 필드를 초기화 하는 생성자 생성
 
     public MemberDTO(int no, String id, String pwd, String name, int age, char gender) {
         this.no = no;
@@ -21,7 +22,7 @@ public class MemberDTO {
         this.age = age;
         this.gender = gender;
     }
-    // 3. getter / setter
+    // 8. getter / setter 생성
 
     public int getNo() {
         return no;
@@ -71,7 +72,7 @@ public class MemberDTO {
         this.gender = gender;
     }
 
-    // 4. toString
+    // 9. 출력할때 간다히 보일수 있도록 오버라이드 입력
 
     @Override
     public String toString() {

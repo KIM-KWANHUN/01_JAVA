@@ -20,7 +20,30 @@ public class MemberManager3 {
         FmManager3.insert(player);
     }
 
+    public void MancesterCityMember() {
+
+        MemberDTO4[] player2 = new MemberDTO4[11];
+        player2[0] = new MemberDTO4("에데르송",31,"브라질","골키퍼");
+        player2[1] = new MemberDTO4("요슈코 그바르디올",24,"크로아티아","센터백");
+        player2[2] = new MemberDTO4("마누엘 아칸지",25,"스위스","센터백");
+        player2[3] = new MemberDTO4("네이션 아케",6,"네덜란드","센터백");
+        player2[4] = new MemberDTO4("로드리",16,"스페인","중앙 미드필더");
+        player2[5] = new MemberDTO4("케빈 데브라이너",17,"벨기에","중앙 미드필더");
+        player2[6] = new MemberDTO4("필 포든",47,"잉글랜드","중앙 미드필더");
+        player2[7] = new MemberDTO4("마테오 코바치치",8,"크로아티아","중앙미드필더");
+        player2[8] = new MemberDTO4("제레미 도쿠",11,"벨기에","윙포워드");
+        player2[9] = new MemberDTO4("베르나르두 실바",20,"포르투갈","윙포워드");
+        player2[10] = new MemberDTO4("엘링 홀란드",9,"노르웨이","스트라이커");
+
+        MemberFmManager4 FmManager4 = new MemberFmManager4();
+        FmManager4.insert2(player2);
+
+
+
+    }
+
     public void LiverpoolMember2() {
+        LiverpoolSearchMembers2 searchAllManagers = new LiverpoolSearchMembers2
 
     }
 

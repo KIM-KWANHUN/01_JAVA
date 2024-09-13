@@ -8,6 +8,7 @@ public class MemberManager {
     *   2. 조회 관련 클래스에게 명령 */
 
     public void signUpMembers() {
+        // 10. 배열을 통해 회원 정보 입력
 
         MemberDTO[] member = new MemberDTO[5];
         member[0] = new MemberDTO(1,"user01","pass01","푸바오",4,'여');
@@ -16,9 +17,9 @@ public class MemberManager {
         member[3] = new MemberDTO(4,"user04","pass04","후이바오",1,'여');
         member[4] = new MemberDTO(5,"user05","pass05","루이바오",1,'여');
 
-        // 회원 등록에 특화된 직원
-        MemberInsertManager insertManager = new MemberInsertManager();
-        insertManager.insert(member);
+        // 11. 회원 등록에 특화된 직원 만들기 다른메소드
+        MemberInsertManager insertManager = new MemberInsertManager(); // 메소드 만들기
+        insertManager.insert(member); //
 
     }
 
