@@ -40,6 +40,14 @@ public class Application03 {
 
         System.out.println("pop() : " + intergerStack.pop());
         System.out.println("intergerStack = " + intergerStack); // 5라는 값을 반환을 하고 5라고 하는 값을 삭제된다. 즉 마지막에 있는 숫자를 제거함
+
+//        System.out.println("pop() : " + intergerStack.pop());
+//        System.out.println("pop() : " + intergerStack.pop());
+//        System.out.println("pop() : " + intergerStack.pop());
+//        System.out.println("pop() : " + intergerStack.pop());
+//        System.out.println("pop() : " + intergerStack.pop());
+//        System.out.println("intergerStack = " + intergerStack);
+        
         
         
     }
