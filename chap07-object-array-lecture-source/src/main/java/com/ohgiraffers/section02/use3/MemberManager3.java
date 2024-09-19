@@ -43,7 +43,7 @@ public class MemberManager3 {
     }
 
     public void LiverpoolMember2() {
-        LiverpoolSearchMembers2 searchAllManagers = new LiverpoolSearchMembers2
+//        LiverpoolSearchMembers2 searchAllManagers = new LiverpoolSearchMembers2
 
     }
 
