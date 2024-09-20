@@ -20,6 +20,14 @@ public class Application02 {
             // 3. 물건의 가격이 가진 돈 보다 큼
             // et2.checkEnoughMoney(10000,5000);
 
+            /* title.
+            *   주의사항
+            *   catch 블럭은 위에서부터 아래로 자신의 타입과 맞는
+            *   경우 동작을 하게 되는데, 상위타입(NegativeException)이
+            *   catch 블럭 상단에 위치하게 된다면
+            *   하단에 작성한 하위타입(MoneyNegativeException)은
+            *   절대 도달할 수 없는 코드가 되기 때문에 컴파일 에러를 발생한다. */
+
         // 예외 상황 별 catch 블럭을 따로 작성해서 처리할 수 있다.
         } catch (PriceNegativeException e) {
             System.out.println("가격이 음수 상황 발생!!!!");
