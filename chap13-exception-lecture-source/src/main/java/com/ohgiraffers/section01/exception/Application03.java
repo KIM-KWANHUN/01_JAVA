@@ -6,13 +6,14 @@ public class Application03 {
 
         /* title. try-catch 블럭을 이용하여 예외처리를 할 수 있다. */
 
-        /* index 2. try-catch 블럭을 이용항 방법 (예외 발생하지 않음) */
+        /* index 3. try-catch 블럭을 이용항 방법 (예외 상황 발생) */
 
         ExceptionTest et = new ExceptionTest();
 
         try {
-            et.checkEnoughMoney(10000,50000);
-            //try 구문 내에서 예외가 발생하면 catch 구문이 동장을 한다.
+            // 상품의 가격이 더 높게 만들것이다.
+            et.checkEnoughMoney(50000,10000);
+            // throw new Exception(); 뜻과 같다.
 
             System.out.println("====================상품 구입 가능======================");
         } catch (Exception e) {
