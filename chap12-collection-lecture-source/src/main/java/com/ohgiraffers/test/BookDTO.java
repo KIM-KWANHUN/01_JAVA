@@ -1,17 +1,26 @@
 package com.ohgiraffers.test;
 
 public class BookDTO {
+    private int bNo; // 도서 번호
     private int category; // 장르 분류 번호
     private String title; // 도서 제목
     private String author; // 도서 저자
 
-    public BookDTO(String title, int category, String author) {} // 기본 생성자
+    public BookDTO() {} // 기본 생성자
 
     public BookDTO(int category, String title, String author) {
         this.category = category;
         this.title = title;
         this.author = author;
     } // 매개변수 담을 생성자
+
+    public int getbNo() {
+        return bNo;
+    }
+
+    public void setbNo(int bNo) {
+        this.bNo = bNo;
+    }
 
     public int getCategory() {
         return category;
@@ -40,6 +49,7 @@ public class BookDTO {
     @Override
     public String toString() {
         return "BookDTO{" +
+                "bNo=" + bNo +
                 ", category=" + category +
                 ", title='" + title + '\'' +
                 ", author='" + author + '\'' +

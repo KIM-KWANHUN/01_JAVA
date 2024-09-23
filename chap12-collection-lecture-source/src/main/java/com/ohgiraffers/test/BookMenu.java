@@ -9,7 +9,7 @@ public class BookMenu {
 //    private String title; // 도서 제목
 //    private String author; // 도서 저자
     Scanner sc = new Scanner(System.in);
-    BookDTO bookDTO = new BookDTO(category, "title", "author");
+    BookDTO book = new BookDTO();
 
     public void mainMenu() {
 
@@ -23,7 +23,29 @@ public class BookMenu {
             System.out.println("6. 프로그램 종료");
             System.out.print("번호를 입력해주세요");
         }
-        int num1 =
+        int num1 = sc.nextInt();
+
+        switch (num1) {
+            case 1 :
+                BookManager.addBook(inputBook());
+                break;
+            case 2 :
+                BookManager.announce();
+            case 3 :
+                BookManager.deleteBook(inputBookNo());
+                break;
+            case 4 :
+                BookManager.searchBook(inputBookTitle());
+                break;
+            case 5 :
+                BookManager.displayAllBooks();
+                break;
+            case 6 :
+                return;
+            default:
+                System.out.println("잘못 된 번호를 입력하셨습니다.");
+                break;
+        }
 
     }
 
