@@ -28,12 +28,22 @@ public class Application03 {
 
             fout.write(barr);
 
+            fout.write(barr, 1, 3); // 옆에 숫자를 붙이는건 1번 인덱스부터 길이 3만큼 파일에 내보내는 것
+
 
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
 
         } catch (IOException e) {
             throw new RuntimeException(e);
+        } finally {
+            if (fout != null) {
+                try {
+                    fout.close();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
         }
 
     }
