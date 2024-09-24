@@ -19,7 +19,7 @@ public class BookManager {
     } // 해당 bookDTO 객체를 담기
 
     public static void deleteBook(int index){
-        List.remove(index);
+        List.remove(index); 
         System.out.println("도서가 삭제되었습니다.");
 
     } // 전달받은 위치의 인덱스 값 제거
